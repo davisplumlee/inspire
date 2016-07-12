@@ -1,0 +1,83 @@
+.awesome{
+-webkit-appearance: none;
+outline: none;
+border: 0;
+background: transparent;
+}
+
+.sizeUp1{
+    font-size: 10.0em;
+}
+
+.sizeUp2{
+    font-size: 4.0em;
+}
+
+.clockDate{
+    text-align: center;
+}
+
+.fnt{
+    color: whitesmoke;
+}
+
+::selection{
+    background: #666
+}
+
+::-moz-selection{
+    background: #666
+}
+
+
+.right{
+    text-align: right;
+    padding: 0px 30px;
+}
+
+.left{
+    text-align: left;
+    font-size: 1.0em;
+    padding: 10px;
+}
+
+.quote-card{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+#author{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.jumbotron{
+    background-color: rgba(10, 10, 10, .8);
+    padding: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+.smaller{
+    font-size: .4em;
+}
+
+.todoClass{
+    padding-top: 140px;
+}
+
+
+
+
+
+

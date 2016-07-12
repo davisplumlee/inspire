@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Inspire</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://use.fontawesome.com/f8241a9974.js"></script>
+
+</head>
+
+<body id="body">
+	<div class="container-fluid fnt">
+
+		<div class="row weather">
+
+			<div id="weather">
+
+			</div>
+
+		</div>
+
+		<div class="row clockDate">
+			
+				<div id="clock" class="sizeUp1"></div>
+
+				<div id="date" class="sizeUp2"></div>
+			
+		</div>
+		<div class="row todoClass">
+			<div class="col-sm-3 col-sm-offset-9 jumbotron">
+				<form id="form" class="form-inline">
+					<div class="form-group">
+						<input id="input" class="form-control input-sm" placeholder="To-Do" type="text">
+					</div>
+					<button type="button" class="btn btn-default btn-sm" id="add">Add To-Do</button>
+				</form>
+
+				<div id="todo">
+					<ul id="todo-list">
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div id="quote">
+
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="app/init.js"></script>
+	<script src="app/components/weather/weather-service.js"></script>
+	<script src="app/components/image/image-service.js"></script>
+	<script src="app/components/quote/quote-service.js"></script>
+	<script src="app/components/todo/todo-service.js"></script>
+
+	<!--Load your scripts below-->
+	<script src="app/components/weather/weather-controller.js"></script>
+	<script src="app/components/image/image-controller.js"></script>
+	<script src="app/components/quote/quote-controller.js"></script>
+	<script src="app/components/todo/todo-controller.js"></script>
+
+</body>
+
+</html>
