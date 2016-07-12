@@ -12,7 +12,8 @@
 		var input = $('#input').val()
 		todos.push(input)
 		console.log(todos)
-
+		
+		todo.saveTodos(todos);
 		update();
 
 	})
@@ -21,6 +22,7 @@
 		var id = $(this).data("id");
 		console.log(id)
 		todos.splice(id, 1);
+		todo.saveTodos(todos);
 		update();
 	})
 
@@ -37,6 +39,7 @@
 		}
 	}
 	
+	update();
 	
 	
 }())
