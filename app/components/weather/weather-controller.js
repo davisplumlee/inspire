@@ -9,10 +9,10 @@
 		var c = ((f - 32) / 1.8).toFixed(1)
 		var far = true;
 
-		var template = `<div class="col-sm-6 left">
+		var template = `<div class="col-xs-6 left">
 		<p>${weather.name.toUpperCase()}</p>
 		</div>
-		<div class="col-sm-6 right">
+		<div class="col-xs-6 right">
 		<h3><span>${f}&deg F</span></h3>
 		<p>${weather.weather[0].description.toUpperCase()}</p>
 		</div>
